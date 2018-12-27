@@ -1,0 +1,57 @@
+L=> S
+L=> id = E ; S
+L=> id = T Ep ; S
+L=> id = F Tp Ep ; S
+L=> id = ( E ) Tp Ep ; S
+L=> id = ( T Ep ) Tp Ep ; S
+L=> id = ( F Tp Ep ) Tp Ep ; S
+L=> id = ( id A Tp Ep ) Tp Ep ; S
+L=> id = ( id ( E ) Tp Ep ) Tp Ep ; S
+L=> id = ( id ( T Ep ) Tp Ep ) Tp Ep ; S
+L=> id = ( id ( F Tp Ep ) Tp Ep ) Tp Ep ; S
+L=> id = ( id ( id A Tp Ep ) Tp Ep ) Tp Ep ; S
+L=> id = ( id ( id Tp Ep ) Tp Ep ) Tp Ep ; S
+L=> id = ( id ( id Ep ) Tp Ep ) Tp Ep ; S
+L=> id = ( id ( id ) Tp Ep ) Tp Ep ; S
+L=> id = ( id ( id ) Ep ) Tp Ep ; S
+L=> id = ( id ( id ) + T Ep ) Tp Ep ; S
+L=> id = ( id ( id ) + F Tp Ep ) Tp Ep ; S
+L=> id = ( id ( id ) + id A Tp Ep ) Tp Ep ; S
+L=> id = ( id ( id ) + id ( E ) Tp Ep ) Tp Ep ; S
+L=> id = ( id ( id ) + id ( T Ep ) Tp Ep ) Tp Ep ; S
+L=> id = ( id ( id ) + id ( F Tp Ep ) Tp Ep ) Tp Ep ; S
+L=> id = ( id ( id ) + id ( id A Tp Ep ) Tp Ep ) Tp Ep ; S
+L=> id = ( id ( id ) + id ( id ( E ) Tp Ep ) Tp Ep ) Tp Ep ; S
+L=> id = ( id ( id ) + id ( id ( T Ep ) Tp Ep ) Tp Ep ) Tp Ep ; S
+L=> id = ( id ( id ) + id ( id ( F Tp Ep ) Tp Ep ) Tp Ep ) Tp Ep ; S
+L=> id = ( id ( id ) + id ( id ( id A Tp Ep ) Tp Ep ) Tp Ep ) Tp Ep ; S
+L=> id = ( id ( id ) + id ( id ( id Tp Ep ) Tp Ep ) Tp Ep ) Tp Ep ; S
+L=> id = ( id ( id ) + id ( id ( id Ep ) Tp Ep ) Tp Ep ) Tp Ep ; S
+L=> id = ( id ( id ) + id ( id ( id ) Tp Ep ) Tp Ep ) Tp Ep ; S
+L=> id = ( id ( id ) + id ( id ( id ) Ep ) Tp Ep ) Tp Ep ; S
+L=> id = ( id ( id ) + id ( id ( id ) - T Ep ) Tp Ep ) Tp Ep ; S
+L=> id = ( id ( id ) + id ( id ( id ) - F Tp Ep ) Tp Ep ) Tp Ep ; S
+L=> id = ( id ( id ) + id ( id ( id ) - con Tp Ep ) Tp Ep ) Tp Ep ; S
+L=> id = ( id ( id ) + id ( id ( id ) - con * F Tp Ep ) Tp Ep ) Tp Ep ; S
+L=> id = ( id ( id ) + id ( id ( id ) - con * id A Tp Ep ) Tp Ep ) Tp Ep ; S
+L=> id = ( id ( id ) + id ( id ( id ) - con * id Tp Ep ) Tp Ep ) Tp Ep ; S
+L=> id = ( id ( id ) + id ( id ( id ) - con * id * F Tp Ep ) Tp Ep ) Tp Ep ; S
+L=> id = ( id ( id ) + id ( id ( id ) - con * id * id A Tp Ep ) Tp Ep ) Tp Ep ; S
+L=> id = ( id ( id ) + id ( id ( id ) - con * id * id Tp Ep ) Tp Ep ) Tp Ep ; S
+L=> id = ( id ( id ) + id ( id ( id ) - con * id * id Ep ) Tp Ep ) Tp Ep ; S
+L=> id = ( id ( id ) + id ( id ( id ) - con * id * id ) Tp Ep ) Tp Ep ; S
+L=> id = ( id ( id ) + id ( id ( id ) - con * id * id ) Ep ) Tp Ep ; S
+L=> id = ( id ( id ) + id ( id ( id ) - con * id * id ) ) Tp Ep ; S
+L=> id = ( id ( id ) + id ( id ( id ) - con * id * id ) ) / F Tp Ep ; S
+L=> id = ( id ( id ) + id ( id ( id ) - con * id * id ) ) / ( E ) Tp Ep ; S
+L=> id = ( id ( id ) + id ( id ( id ) - con * id * id ) ) / ( T Ep ) Tp Ep ; S
+L=> id = ( id ( id ) + id ( id ( id ) - con * id * id ) ) / ( F Tp Ep ) Tp Ep ; S
+L=> id = ( id ( id ) + id ( id ( id ) - con * id * id ) ) / ( con Tp Ep ) Tp Ep ; S
+L=> id = ( id ( id ) + id ( id ( id ) - con * id * id ) ) / ( con * F Tp Ep ) Tp Ep ; S
+L=> id = ( id ( id ) + id ( id ( id ) - con * id * id ) ) / ( con * id A Tp Ep ) Tp Ep ; S
+L=> id = ( id ( id ) + id ( id ( id ) - con * id * id ) ) / ( con * id Tp Ep ) Tp Ep ; S
+L=> id = ( id ( id ) + id ( id ( id ) - con * id * id ) ) / ( con * id Ep ) Tp Ep ; S
+L=> id = ( id ( id ) + id ( id ( id ) - con * id * id ) ) / ( con * id ) Tp Ep ; S
+L=> id = ( id ( id ) + id ( id ( id ) - con * id * id ) ) / ( con * id ) Ep ; S
+L=> id = ( id ( id ) + id ( id ( id ) - con * id * id ) ) / ( con * id ) ; S
+L=> id = ( id ( id ) + id ( id ( id ) - con * id * id ) ) / ( con * id ) ;
