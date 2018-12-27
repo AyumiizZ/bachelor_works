@@ -1,0 +1,11 @@
+L=> S
+L=> id = E ; S
+L=> id = T Ep ; S
+L=> id = F Tp Ep ; S
+L=> id = id A Tp Ep ; S
+L=> id = id Tp Ep ; S
+L=> id = id / F Tp Ep ; S
+L=> id = id / con Tp Ep ; S
+L=> id = id / con Ep ; S
+L=> id = id / con ; S
+parse error

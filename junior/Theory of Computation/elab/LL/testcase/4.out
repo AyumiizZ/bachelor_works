@@ -1,0 +1,8 @@
+L=> S
+L=> id = E ; S
+L=> id = T Ep ; S
+L=> id = F Tp Ep ; S
+L=> id = con Tp Ep ; S
+L=> id = con Ep ; S
+L=> id = con ; S
+L=> id = con ;
