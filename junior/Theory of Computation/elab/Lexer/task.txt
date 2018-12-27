@@ -1,0 +1,19 @@
+A Lexical Analyzer for Arithmetic Expressions
+Write a Python program that read lines of text characters from the standard input. The program contains a lexical analyzer (lexer) function that partitions the input stream into tokens. There are five kinds of tokens: IDEN, CONST, LITERAL, ERROR, and EOF. Let L represent a regular expression for the set {a, b, ..., z} and D represent a regular expression for the set {0, 1, 2, ..., 9}. The five tokens can be defined as follows:
+
+IDEN is described by the regular expression L(L U D)*
+CONST is described by the regular expression DD*(epsilon U .DD*)
+LITERAL is any character in the set {+, -, *, /, (, )}
+EOF token is returned from the lexer when the end of file is reached.
+ERROR token is returned when an invalid character or string occurrs.
+White spaces (blanks, tabs, or newlines) separate two adjacent tokens. A character that obviously starts a new token will also signify the end of the previous token. For example the string
+
+    123ab39%
+is partitioned into three tokens: CONST (lexeme '123'), IDEN (lexeme 'ab39'), and ERROR (lexeme '%')
+
+The main routine uses a loop to call the lexer to request next token. The loop exits when the lexer returns the token EOF. For each returned token, the main routine prints an output line (on the standard input) with the following format:
+
+token_name one_tab_character token_lexeme
+
+The last token EOF will not be printed.
+
