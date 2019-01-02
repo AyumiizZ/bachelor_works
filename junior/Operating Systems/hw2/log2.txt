@@ -1,0 +1,600 @@
+Round 1
+hello world (pid:3183)
+hello, I am child (pid:3184)
+hello world (pid:3183)
+hello, I am parent of 3184 (rc_wait:3184) (pid:3183)
+
+Round 2
+hello world (pid:3190)
+hello, I am child (pid:3191)
+hello world (pid:3190)
+hello, I am parent of 3191 (rc_wait:3191) (pid:3190)
+
+Round 3
+hello world (pid:3197)
+hello, I am child (pid:3198)
+hello world (pid:3197)
+hello, I am parent of 3198 (rc_wait:3198) (pid:3197)
+
+Round 4
+hello world (pid:3204)
+hello, I am child (pid:3205)
+hello world (pid:3204)
+hello, I am parent of 3205 (rc_wait:3205) (pid:3204)
+
+Round 5
+hello world (pid:3211)
+hello, I am child (pid:3212)
+hello world (pid:3211)
+hello, I am parent of 3212 (rc_wait:3212) (pid:3211)
+
+Round 6
+hello world (pid:3218)
+hello, I am child (pid:3219)
+hello world (pid:3218)
+hello, I am parent of 3219 (rc_wait:3219) (pid:3218)
+
+Round 7
+hello world (pid:3225)
+hello, I am child (pid:3226)
+hello world (pid:3225)
+hello, I am parent of 3226 (rc_wait:3226) (pid:3225)
+
+Round 8
+hello world (pid:3232)
+hello, I am child (pid:3233)
+hello world (pid:3232)
+hello, I am parent of 3233 (rc_wait:3233) (pid:3232)
+
+Round 9
+hello world (pid:3239)
+hello, I am child (pid:3240)
+hello world (pid:3239)
+hello, I am parent of 3240 (rc_wait:3240) (pid:3239)
+
+Round 10
+hello world (pid:3246)
+hello, I am child (pid:3247)
+hello world (pid:3246)
+hello, I am parent of 3247 (rc_wait:3247) (pid:3246)
+
+Round 11
+hello world (pid:3253)
+hello, I am child (pid:3254)
+hello world (pid:3253)
+hello, I am parent of 3254 (rc_wait:3254) (pid:3253)
+
+Round 12
+hello world (pid:3260)
+hello, I am child (pid:3261)
+hello world (pid:3260)
+hello, I am parent of 3261 (rc_wait:3261) (pid:3260)
+
+Round 13
+hello world (pid:3267)
+hello, I am child (pid:3268)
+hello world (pid:3267)
+hello, I am parent of 3268 (rc_wait:3268) (pid:3267)
+
+Round 14
+hello world (pid:3274)
+hello, I am child (pid:3275)
+hello world (pid:3274)
+hello, I am parent of 3275 (rc_wait:3275) (pid:3274)
+
+Round 15
+hello world (pid:3281)
+hello, I am child (pid:3282)
+hello world (pid:3281)
+hello, I am parent of 3282 (rc_wait:3282) (pid:3281)
+
+Round 16
+hello world (pid:3288)
+hello, I am child (pid:3289)
+hello world (pid:3288)
+hello, I am parent of 3289 (rc_wait:3289) (pid:3288)
+
+Round 17
+hello world (pid:3295)
+hello, I am child (pid:3296)
+hello world (pid:3295)
+hello, I am parent of 3296 (rc_wait:3296) (pid:3295)
+
+Round 18
+hello world (pid:3302)
+hello, I am child (pid:3303)
+hello world (pid:3302)
+hello, I am parent of 3303 (rc_wait:3303) (pid:3302)
+
+Round 19
+hello world (pid:3309)
+hello, I am child (pid:3310)
+hello world (pid:3309)
+hello, I am parent of 3310 (rc_wait:3310) (pid:3309)
+
+Round 20
+hello world (pid:3316)
+hello, I am child (pid:3317)
+hello world (pid:3316)
+hello, I am parent of 3317 (rc_wait:3317) (pid:3316)
+
+Round 21
+hello world (pid:3323)
+hello, I am child (pid:3324)
+hello world (pid:3323)
+hello, I am parent of 3324 (rc_wait:3324) (pid:3323)
+
+Round 22
+hello world (pid:3330)
+hello, I am child (pid:3331)
+hello world (pid:3330)
+hello, I am parent of 3331 (rc_wait:3331) (pid:3330)
+
+Round 23
+hello world (pid:3337)
+hello, I am child (pid:3338)
+hello world (pid:3337)
+hello, I am parent of 3338 (rc_wait:3338) (pid:3337)
+
+Round 24
+hello world (pid:3344)
+hello, I am child (pid:3345)
+hello world (pid:3344)
+hello, I am parent of 3345 (rc_wait:3345) (pid:3344)
+
+Round 25
+hello world (pid:3351)
+hello, I am child (pid:3352)
+hello world (pid:3351)
+hello, I am parent of 3352 (rc_wait:3352) (pid:3351)
+
+Round 26
+hello world (pid:3358)
+hello, I am child (pid:3359)
+hello world (pid:3358)
+hello, I am parent of 3359 (rc_wait:3359) (pid:3358)
+
+Round 27
+hello world (pid:3365)
+hello, I am child (pid:3366)
+hello world (pid:3365)
+hello, I am parent of 3366 (rc_wait:3366) (pid:3365)
+
+Round 28
+hello world (pid:3372)
+hello, I am child (pid:3373)
+hello world (pid:3372)
+hello, I am parent of 3373 (rc_wait:3373) (pid:3372)
+
+Round 29
+hello world (pid:3379)
+hello, I am child (pid:3380)
+hello world (pid:3379)
+hello, I am parent of 3380 (rc_wait:3380) (pid:3379)
+
+Round 30
+hello world (pid:3386)
+hello, I am child (pid:3387)
+hello world (pid:3386)
+hello, I am parent of 3387 (rc_wait:3387) (pid:3386)
+
+Round 31
+hello world (pid:3393)
+hello, I am child (pid:3394)
+hello world (pid:3393)
+hello, I am parent of 3394 (rc_wait:3394) (pid:3393)
+
+Round 32
+hello world (pid:3400)
+hello, I am child (pid:3401)
+hello world (pid:3400)
+hello, I am parent of 3401 (rc_wait:3401) (pid:3400)
+
+Round 33
+hello world (pid:3407)
+hello, I am child (pid:3408)
+hello world (pid:3407)
+hello, I am parent of 3408 (rc_wait:3408) (pid:3407)
+
+Round 34
+hello world (pid:3414)
+hello, I am child (pid:3415)
+hello world (pid:3414)
+hello, I am parent of 3415 (rc_wait:3415) (pid:3414)
+
+Round 35
+hello world (pid:3421)
+hello, I am child (pid:3422)
+hello world (pid:3421)
+hello, I am parent of 3422 (rc_wait:3422) (pid:3421)
+
+Round 36
+hello world (pid:3428)
+hello, I am child (pid:3429)
+hello world (pid:3428)
+hello, I am parent of 3429 (rc_wait:3429) (pid:3428)
+
+Round 37
+hello world (pid:3435)
+hello, I am child (pid:3436)
+hello world (pid:3435)
+hello, I am parent of 3436 (rc_wait:3436) (pid:3435)
+
+Round 38
+hello world (pid:3442)
+hello, I am child (pid:3443)
+hello world (pid:3442)
+hello, I am parent of 3443 (rc_wait:3443) (pid:3442)
+
+Round 39
+hello world (pid:3449)
+hello, I am child (pid:3450)
+hello world (pid:3449)
+hello, I am parent of 3450 (rc_wait:3450) (pid:3449)
+
+Round 40
+hello world (pid:3456)
+hello, I am child (pid:3457)
+hello world (pid:3456)
+hello, I am parent of 3457 (rc_wait:3457) (pid:3456)
+
+Round 41
+hello world (pid:3463)
+hello, I am child (pid:3464)
+hello world (pid:3463)
+hello, I am parent of 3464 (rc_wait:3464) (pid:3463)
+
+Round 42
+hello world (pid:3470)
+hello, I am child (pid:3471)
+hello world (pid:3470)
+hello, I am parent of 3471 (rc_wait:3471) (pid:3470)
+
+Round 43
+hello world (pid:3477)
+hello, I am child (pid:3478)
+hello world (pid:3477)
+hello, I am parent of 3478 (rc_wait:3478) (pid:3477)
+
+Round 44
+hello world (pid:3484)
+hello, I am child (pid:3485)
+hello world (pid:3484)
+hello, I am parent of 3485 (rc_wait:3485) (pid:3484)
+
+Round 45
+hello world (pid:3491)
+hello, I am child (pid:3492)
+hello world (pid:3491)
+hello, I am parent of 3492 (rc_wait:3492) (pid:3491)
+
+Round 46
+hello world (pid:3498)
+hello, I am child (pid:3499)
+hello world (pid:3498)
+hello, I am parent of 3499 (rc_wait:3499) (pid:3498)
+
+Round 47
+hello world (pid:3505)
+hello, I am child (pid:3506)
+hello world (pid:3505)
+hello, I am parent of 3506 (rc_wait:3506) (pid:3505)
+
+Round 48
+hello world (pid:3512)
+hello, I am child (pid:3513)
+hello world (pid:3512)
+hello, I am parent of 3513 (rc_wait:3513) (pid:3512)
+
+Round 49
+hello world (pid:3519)
+hello, I am child (pid:3520)
+hello world (pid:3519)
+hello, I am parent of 3520 (rc_wait:3520) (pid:3519)
+
+Round 50
+hello world (pid:3526)
+hello, I am child (pid:3527)
+hello world (pid:3526)
+hello, I am parent of 3527 (rc_wait:3527) (pid:3526)
+
+Round 51
+hello world (pid:3533)
+hello, I am child (pid:3534)
+hello world (pid:3533)
+hello, I am parent of 3534 (rc_wait:3534) (pid:3533)
+
+Round 52
+hello world (pid:3540)
+hello, I am child (pid:3541)
+hello world (pid:3540)
+hello, I am parent of 3541 (rc_wait:3541) (pid:3540)
+
+Round 53
+hello world (pid:3547)
+hello, I am child (pid:3548)
+hello world (pid:3547)
+hello, I am parent of 3548 (rc_wait:3548) (pid:3547)
+
+Round 54
+hello world (pid:3554)
+hello, I am child (pid:3555)
+hello world (pid:3554)
+hello, I am parent of 3555 (rc_wait:3555) (pid:3554)
+
+Round 55
+hello world (pid:3561)
+hello, I am child (pid:3562)
+hello world (pid:3561)
+hello, I am parent of 3562 (rc_wait:3562) (pid:3561)
+
+Round 56
+hello world (pid:3568)
+hello, I am child (pid:3569)
+hello world (pid:3568)
+hello, I am parent of 3569 (rc_wait:3569) (pid:3568)
+
+Round 57
+hello world (pid:3575)
+hello, I am child (pid:3576)
+hello world (pid:3575)
+hello, I am parent of 3576 (rc_wait:3576) (pid:3575)
+
+Round 58
+hello world (pid:3582)
+hello, I am child (pid:3583)
+hello world (pid:3582)
+hello, I am parent of 3583 (rc_wait:3583) (pid:3582)
+
+Round 59
+hello world (pid:3589)
+hello, I am child (pid:3590)
+hello world (pid:3589)
+hello, I am parent of 3590 (rc_wait:3590) (pid:3589)
+
+Round 60
+hello world (pid:3596)
+hello, I am child (pid:3597)
+hello world (pid:3596)
+hello, I am parent of 3597 (rc_wait:3597) (pid:3596)
+
+Round 61
+hello world (pid:3603)
+hello, I am child (pid:3604)
+hello world (pid:3603)
+hello, I am parent of 3604 (rc_wait:3604) (pid:3603)
+
+Round 62
+hello world (pid:3610)
+hello, I am child (pid:3611)
+hello world (pid:3610)
+hello, I am parent of 3611 (rc_wait:3611) (pid:3610)
+
+Round 63
+hello world (pid:3617)
+hello, I am child (pid:3618)
+hello world (pid:3617)
+hello, I am parent of 3618 (rc_wait:3618) (pid:3617)
+
+Round 64
+hello world (pid:3624)
+hello, I am child (pid:3625)
+hello world (pid:3624)
+hello, I am parent of 3625 (rc_wait:3625) (pid:3624)
+
+Round 65
+hello world (pid:3631)
+hello, I am child (pid:3632)
+hello world (pid:3631)
+hello, I am parent of 3632 (rc_wait:3632) (pid:3631)
+
+Round 66
+hello world (pid:3638)
+hello, I am child (pid:3639)
+hello world (pid:3638)
+hello, I am parent of 3639 (rc_wait:3639) (pid:3638)
+
+Round 67
+hello world (pid:3645)
+hello, I am child (pid:3646)
+hello world (pid:3645)
+hello, I am parent of 3646 (rc_wait:3646) (pid:3645)
+
+Round 68
+hello world (pid:3652)
+hello, I am child (pid:3653)
+hello world (pid:3652)
+hello, I am parent of 3653 (rc_wait:3653) (pid:3652)
+
+Round 69
+hello world (pid:3659)
+hello, I am child (pid:3660)
+hello world (pid:3659)
+hello, I am parent of 3660 (rc_wait:3660) (pid:3659)
+
+Round 70
+hello world (pid:3666)
+hello, I am child (pid:3667)
+hello world (pid:3666)
+hello, I am parent of 3667 (rc_wait:3667) (pid:3666)
+
+Round 71
+hello world (pid:3673)
+hello, I am child (pid:3674)
+hello world (pid:3673)
+hello, I am parent of 3674 (rc_wait:3674) (pid:3673)
+
+Round 72
+hello world (pid:3680)
+hello, I am child (pid:3681)
+hello world (pid:3680)
+hello, I am parent of 3681 (rc_wait:3681) (pid:3680)
+
+Round 73
+hello world (pid:3687)
+hello, I am child (pid:3688)
+hello world (pid:3687)
+hello, I am parent of 3688 (rc_wait:3688) (pid:3687)
+
+Round 74
+hello world (pid:3694)
+hello, I am child (pid:3695)
+hello world (pid:3694)
+hello, I am parent of 3695 (rc_wait:3695) (pid:3694)
+
+Round 75
+hello world (pid:3701)
+hello, I am child (pid:3702)
+hello world (pid:3701)
+hello, I am parent of 3702 (rc_wait:3702) (pid:3701)
+
+Round 76
+hello world (pid:3708)
+hello, I am child (pid:3709)
+hello world (pid:3708)
+hello, I am parent of 3709 (rc_wait:3709) (pid:3708)
+
+Round 77
+hello world (pid:3715)
+hello, I am child (pid:3716)
+hello world (pid:3715)
+hello, I am parent of 3716 (rc_wait:3716) (pid:3715)
+
+Round 78
+hello world (pid:3722)
+hello, I am child (pid:3723)
+hello world (pid:3722)
+hello, I am parent of 3723 (rc_wait:3723) (pid:3722)
+
+Round 79
+hello world (pid:3729)
+hello, I am child (pid:3730)
+hello world (pid:3729)
+hello, I am parent of 3730 (rc_wait:3730) (pid:3729)
+
+Round 80
+hello world (pid:3736)
+hello, I am child (pid:3737)
+hello world (pid:3736)
+hello, I am parent of 3737 (rc_wait:3737) (pid:3736)
+
+Round 81
+hello world (pid:3743)
+hello, I am child (pid:3744)
+hello world (pid:3743)
+hello, I am parent of 3744 (rc_wait:3744) (pid:3743)
+
+Round 82
+hello world (pid:3750)
+hello, I am child (pid:3751)
+hello world (pid:3750)
+hello, I am parent of 3751 (rc_wait:3751) (pid:3750)
+
+Round 83
+hello world (pid:3757)
+hello, I am child (pid:3758)
+hello world (pid:3757)
+hello, I am parent of 3758 (rc_wait:3758) (pid:3757)
+
+Round 84
+hello world (pid:3764)
+hello, I am child (pid:3765)
+hello world (pid:3764)
+hello, I am parent of 3765 (rc_wait:3765) (pid:3764)
+
+Round 85
+hello world (pid:3771)
+hello, I am child (pid:3772)
+hello world (pid:3771)
+hello, I am parent of 3772 (rc_wait:3772) (pid:3771)
+
+Round 86
+hello world (pid:3778)
+hello, I am child (pid:3779)
+hello world (pid:3778)
+hello, I am parent of 3779 (rc_wait:3779) (pid:3778)
+
+Round 87
+hello world (pid:3785)
+hello, I am child (pid:3786)
+hello world (pid:3785)
+hello, I am parent of 3786 (rc_wait:3786) (pid:3785)
+
+Round 88
+hello world (pid:3792)
+hello, I am child (pid:3793)
+hello world (pid:3792)
+hello, I am parent of 3793 (rc_wait:3793) (pid:3792)
+
+Round 89
+hello world (pid:3799)
+hello, I am child (pid:3800)
+hello world (pid:3799)
+hello, I am parent of 3800 (rc_wait:3800) (pid:3799)
+
+Round 90
+hello world (pid:3806)
+hello, I am child (pid:3807)
+hello world (pid:3806)
+hello, I am parent of 3807 (rc_wait:3807) (pid:3806)
+
+Round 91
+hello world (pid:3813)
+hello, I am child (pid:3814)
+hello world (pid:3813)
+hello, I am parent of 3814 (rc_wait:3814) (pid:3813)
+
+Round 92
+hello world (pid:3820)
+hello, I am child (pid:3821)
+hello world (pid:3820)
+hello, I am parent of 3821 (rc_wait:3821) (pid:3820)
+
+Round 93
+hello world (pid:3827)
+hello, I am child (pid:3828)
+hello world (pid:3827)
+hello, I am parent of 3828 (rc_wait:3828) (pid:3827)
+
+Round 94
+hello world (pid:3834)
+hello, I am child (pid:3835)
+hello world (pid:3834)
+hello, I am parent of 3835 (rc_wait:3835) (pid:3834)
+
+Round 95
+hello world (pid:3841)
+hello, I am child (pid:3842)
+hello world (pid:3841)
+hello, I am parent of 3842 (rc_wait:3842) (pid:3841)
+
+Round 96
+hello world (pid:3848)
+hello, I am child (pid:3849)
+hello world (pid:3848)
+hello, I am parent of 3849 (rc_wait:3849) (pid:3848)
+
+Round 97
+hello world (pid:3855)
+hello, I am child (pid:3856)
+hello world (pid:3855)
+hello, I am parent of 3856 (rc_wait:3856) (pid:3855)
+
+Round 98
+hello world (pid:3862)
+hello, I am child (pid:3863)
+hello world (pid:3862)
+hello, I am parent of 3863 (rc_wait:3863) (pid:3862)
+
+Round 99
+hello world (pid:3869)
+hello, I am child (pid:3870)
+hello world (pid:3869)
+hello, I am parent of 3870 (rc_wait:3870) (pid:3869)
+
+Round 100
+hello world (pid:3876)
+hello, I am child (pid:3877)
+hello world (pid:3876)
+hello, I am parent of 3877 (rc_wait:3877) (pid:3876)
+
