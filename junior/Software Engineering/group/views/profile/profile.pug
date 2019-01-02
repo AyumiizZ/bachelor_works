@@ -1,0 +1,21 @@
+extends ../incontainer 
+
+block content
+  .row
+    .col-10
+      h1 #{user.name}
+  hr
+  .row
+    .col-3
+      img.rounded.mb-3(src=user.gravatar_url(), width="100%")
+      if current.username==user.username
+        a(href='/settings/profile').btn.btn-outline-dark Edit
+    .col-9
+      ul.nav.nav-tabs.mb-2
+        li.nav-item
+          a.nav-link.active(href="/#") เกี่ยวกับ 
+        li.nav-item
+          a.nav-link(href="/profile/"+user.username+"/jobs/1") ผลงาน 
+        li.nav-item
+          a.nav-link(href="/profile/"+user.username+"/reviews/1") รีวิว
+      span !{user.overview_md()}
