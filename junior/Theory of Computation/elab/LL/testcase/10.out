@@ -1,0 +1,24 @@
+L=> S
+L=> id = E ; S
+L=> id = T Ep ; S
+L=> id = F Tp Ep ; S
+L=> id = ( E ) Tp Ep ; S
+L=> id = ( T Ep ) Tp Ep ; S
+L=> id = ( F Tp Ep ) Tp Ep ; S
+L=> id = ( id A Tp Ep ) Tp Ep ; S
+L=> id = ( id ( E ) Tp Ep ) Tp Ep ; S
+L=> id = ( id ( T Ep ) Tp Ep ) Tp Ep ; S
+L=> id = ( id ( F Tp Ep ) Tp Ep ) Tp Ep ; S
+L=> id = ( id ( con Tp Ep ) Tp Ep ) Tp Ep ; S
+L=> id = ( id ( con Ep ) Tp Ep ) Tp Ep ; S
+L=> id = ( id ( con ) Tp Ep ) Tp Ep ; S
+L=> id = ( id ( con ) Ep ) Tp Ep ; S
+L=> id = ( id ( con ) + T Ep ) Tp Ep ; S
+L=> id = ( id ( con ) + F Tp Ep ) Tp Ep ; S
+L=> id = ( id ( con ) + con Tp Ep ) Tp Ep ; S
+L=> id = ( id ( con ) + con / F Tp Ep ) Tp Ep ; S
+L=> id = ( id ( con ) + con / id A Tp Ep ) Tp Ep ; S
+L=> id = ( id ( con ) + con / id Tp Ep ) Tp Ep ; S
+L=> id = ( id ( con ) + con / id Ep ) Tp Ep ; S
+L=> id = ( id ( con ) + con / id ) Tp Ep ; S
+parse error

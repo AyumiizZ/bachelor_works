@@ -1,0 +1,23 @@
+L=> S
+L=> id = E ; S
+L=> id = T Ep ; S
+L=> id = F Tp Ep ; S
+L=> id = id A Tp Ep ; S
+L=> id = id Tp Ep ; S
+L=> id = id Ep ; S
+L=> id = id + T Ep ; S
+L=> id = id + F Tp Ep ; S
+L=> id = id + id A Tp Ep ; S
+L=> id = id + id Tp Ep ; S
+L=> id = id + id Ep ; S
+L=> id = id + id - T Ep ; S
+L=> id = id + id - F Tp Ep ; S
+L=> id = id + id - con Tp Ep ; S
+L=> id = id + id - con Ep ; S
+L=> id = id + id - con - T Ep ; S
+L=> id = id + id - con - F Tp Ep ; S
+L=> id = id + id - con - id A Tp Ep ; S
+L=> id = id + id - con - id Tp Ep ; S
+L=> id = id + id - con - id Ep ; S
+L=> id = id + id - con - id ; S
+L=> id = id + id - con - id ;

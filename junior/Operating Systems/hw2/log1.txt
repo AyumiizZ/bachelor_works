@@ -1,0 +1,600 @@
+Round 1
+hello world (pid:2480)
+hello, I am parent of 2481 (pid:2480)
+hello world (pid:2480)
+hello, I am child (pid:2481)
+
+Round 2
+hello world (pid:2487)
+hello, I am parent of 2488 (pid:2487)
+hello world (pid:2487)
+hello, I am child (pid:2488)
+
+Round 3
+hello world (pid:2494)
+hello, I am parent of 2495 (pid:2494)
+
+hello world (pid:2494)
+hello, I am child (pid:2495)
+Round 4
+hello world (pid:2501)
+hello, I am parent of 2502 (pid:2501)
+hello world (pid:2501)
+hello, I am child (pid:2502)
+
+Round 5
+hello world (pid:2508)
+hello, I am parent of 2509 (pid:2508)
+hello world (pid:2508)
+hello, I am child (pid:2509)
+
+Round 6
+hello world (pid:2515)
+hello, I am parent of 2516 (pid:2515)
+hello world (pid:2515)
+hello, I am child (pid:2516)
+
+Round 7
+hello world (pid:2522)
+hello, I am parent of 2523 (pid:2522)
+hello world (pid:2522)
+hello, I am child (pid:2523)
+
+Round 8
+hello world (pid:2529)
+hello, I am parent of 2530 (pid:2529)
+hello world (pid:2529)
+hello, I am child (pid:2530)
+
+Round 9
+hello world (pid:2536)
+hello, I am parent of 2537 (pid:2536)
+hello world (pid:2536)
+hello, I am child (pid:2537)
+
+Round 10
+hello world (pid:2543)
+hello, I am parent of 2544 (pid:2543)
+hello world (pid:2543)
+hello, I am child (pid:2544)
+
+Round 11
+hello world (pid:2550)
+hello, I am parent of 2551 (pid:2550)
+hello world (pid:2550)
+hello, I am child (pid:2551)
+
+Round 12
+hello world (pid:2557)
+hello, I am parent of 2558 (pid:2557)
+hello world (pid:2557)
+hello, I am child (pid:2558)
+
+Round 13
+hello world (pid:2564)
+hello, I am parent of 2565 (pid:2564)
+hello world (pid:2564)
+hello, I am child (pid:2565)
+
+Round 14
+hello world (pid:2571)
+hello, I am parent of 2572 (pid:2571)
+hello world (pid:2571)
+hello, I am child (pid:2572)
+
+Round 15
+hello world (pid:2578)
+hello, I am parent of 2579 (pid:2578)
+hello world (pid:2578)
+hello, I am child (pid:2579)
+
+Round 16
+hello world (pid:2585)
+hello, I am parent of 2586 (pid:2585)
+hello world (pid:2585)
+hello, I am child (pid:2586)
+
+Round 17
+hello world (pid:2592)
+hello, I am parent of 2593 (pid:2592)
+hello world (pid:2592)
+hello, I am child (pid:2593)
+
+Round 18
+hello world (pid:2599)
+hello, I am parent of 2600 (pid:2599)
+hello world (pid:2599)
+hello, I am child (pid:2600)
+
+Round 19
+hello world (pid:2606)
+hello, I am parent of 2607 (pid:2606)
+hello world (pid:2606)
+hello, I am child (pid:2607)
+
+Round 20
+hello world (pid:2613)
+hello, I am parent of 2614 (pid:2613)
+hello world (pid:2613)
+hello, I am child (pid:2614)
+
+Round 21
+hello world (pid:2620)
+hello, I am parent of 2621 (pid:2620)
+hello world (pid:2620)
+hello, I am child (pid:2621)
+
+Round 22
+hello world (pid:2627)
+hello, I am parent of 2628 (pid:2627)
+hello world (pid:2627)
+hello, I am child (pid:2628)
+
+Round 23
+hello world (pid:2634)
+hello, I am parent of 2635 (pid:2634)
+hello world (pid:2634)
+hello, I am child (pid:2635)
+
+Round 24
+hello world (pid:2641)
+hello, I am parent of 2642 (pid:2641)
+hello world (pid:2641)
+hello, I am child (pid:2642)
+
+Round 25
+hello world (pid:2648)
+hello, I am parent of 2649 (pid:2648)
+hello world (pid:2648)
+hello, I am child (pid:2649)
+
+Round 26
+hello world (pid:2655)
+hello, I am parent of 2656 (pid:2655)
+hello world (pid:2655)
+hello, I am child (pid:2656)
+
+Round 27
+hello world (pid:2662)
+hello, I am parent of 2663 (pid:2662)
+hello world (pid:2662)
+hello, I am child (pid:2663)
+
+Round 28
+hello world (pid:2669)
+hello, I am parent of 2670 (pid:2669)
+hello world (pid:2669)
+hello, I am child (pid:2670)
+
+Round 29
+hello world (pid:2676)
+hello, I am parent of 2677 (pid:2676)
+hello world (pid:2676)
+hello, I am child (pid:2677)
+
+Round 30
+hello world (pid:2683)
+hello, I am parent of 2684 (pid:2683)
+hello world (pid:2683)
+hello, I am child (pid:2684)
+
+Round 31
+hello world (pid:2690)
+hello, I am parent of 2691 (pid:2690)
+hello world (pid:2690)
+hello, I am child (pid:2691)
+
+Round 32
+hello world (pid:2697)
+hello, I am parent of 2698 (pid:2697)
+hello world (pid:2697)
+hello, I am child (pid:2698)
+
+Round 33
+hello world (pid:2704)
+hello, I am parent of 2705 (pid:2704)
+hello world (pid:2704)
+hello, I am child (pid:2705)
+
+Round 34
+hello world (pid:2711)
+hello, I am parent of 2712 (pid:2711)
+hello world (pid:2711)
+hello, I am child (pid:2712)
+
+Round 35
+hello world (pid:2718)
+hello, I am parent of 2719 (pid:2718)
+hello world (pid:2718)
+hello, I am child (pid:2719)
+
+Round 36
+hello world (pid:2725)
+hello, I am parent of 2726 (pid:2725)
+hello world (pid:2725)
+hello, I am child (pid:2726)
+
+Round 37
+hello world (pid:2734)
+hello, I am parent of 2735 (pid:2734)
+hello world (pid:2734)
+hello, I am child (pid:2735)
+
+Round 38
+hello world (pid:2741)
+hello, I am parent of 2742 (pid:2741)
+hello world (pid:2741)
+hello, I am child (pid:2742)
+
+Round 39
+hello world (pid:2748)
+hello, I am parent of 2749 (pid:2748)
+hello world (pid:2748)
+hello, I am child (pid:2749)
+
+Round 40
+hello world (pid:2755)
+hello, I am parent of 2756 (pid:2755)
+hello world (pid:2755)
+hello, I am child (pid:2756)
+
+Round 41
+hello world (pid:2762)
+hello, I am parent of 2763 (pid:2762)
+hello world (pid:2762)
+hello, I am child (pid:2763)
+
+Round 42
+hello world (pid:2769)
+hello, I am parent of 2770 (pid:2769)
+hello world (pid:2769)
+hello, I am child (pid:2770)
+
+Round 43
+hello world (pid:2776)
+hello, I am parent of 2777 (pid:2776)
+hello world (pid:2776)
+hello, I am child (pid:2777)
+
+Round 44
+hello world (pid:2783)
+hello, I am parent of 2784 (pid:2783)
+hello world (pid:2783)
+hello, I am child (pid:2784)
+
+Round 45
+hello world (pid:2790)
+hello, I am parent of 2791 (pid:2790)
+hello world (pid:2790)
+hello, I am child (pid:2791)
+
+Round 46
+hello world (pid:2797)
+hello, I am parent of 2798 (pid:2797)
+hello world (pid:2797)
+hello, I am child (pid:2798)
+
+Round 47
+hello world (pid:2804)
+hello, I am parent of 2805 (pid:2804)
+hello world (pid:2804)
+hello, I am child (pid:2805)
+
+Round 48
+hello world (pid:2811)
+hello, I am parent of 2812 (pid:2811)
+hello world (pid:2811)
+hello, I am child (pid:2812)
+
+Round 49
+hello world (pid:2818)
+hello, I am parent of 2819 (pid:2818)
+hello world (pid:2818)
+hello, I am child (pid:2819)
+
+Round 50
+hello world (pid:2825)
+hello, I am parent of 2826 (pid:2825)
+hello world (pid:2825)
+hello, I am child (pid:2826)
+
+Round 51
+hello world (pid:2832)
+hello, I am parent of 2833 (pid:2832)
+hello world (pid:2832)
+hello, I am child (pid:2833)
+
+Round 52
+hello world (pid:2839)
+hello, I am parent of 2840 (pid:2839)
+hello world (pid:2839)
+hello, I am child (pid:2840)
+
+Round 53
+hello world (pid:2846)
+hello, I am parent of 2847 (pid:2846)
+hello world (pid:2846)
+hello, I am child (pid:2847)
+
+Round 54
+hello world (pid:2853)
+hello, I am parent of 2854 (pid:2853)
+hello world (pid:2853)
+hello, I am child (pid:2854)
+
+Round 55
+hello world (pid:2860)
+hello, I am parent of 2861 (pid:2860)
+hello world (pid:2860)
+hello, I am child (pid:2861)
+
+Round 56
+hello world (pid:2867)
+hello, I am parent of 2868 (pid:2867)
+hello world (pid:2867)
+hello, I am child (pid:2868)
+
+Round 57
+hello world (pid:2874)
+hello, I am parent of 2875 (pid:2874)
+hello world (pid:2874)
+hello, I am child (pid:2875)
+
+Round 58
+hello world (pid:2881)
+hello, I am parent of 2882 (pid:2881)
+hello world (pid:2881)
+hello, I am child (pid:2882)
+
+Round 59
+hello world (pid:2888)
+hello, I am parent of 2889 (pid:2888)
+hello world (pid:2888)
+hello, I am child (pid:2889)
+
+Round 60
+hello world (pid:2895)
+hello, I am parent of 2896 (pid:2895)
+hello world (pid:2895)
+hello, I am child (pid:2896)
+
+Round 61
+hello world (pid:2902)
+hello, I am parent of 2903 (pid:2902)
+hello world (pid:2902)
+hello, I am child (pid:2903)
+
+Round 62
+hello world (pid:2909)
+hello, I am parent of 2910 (pid:2909)
+hello world (pid:2909)
+hello, I am child (pid:2910)
+
+Round 63
+hello world (pid:2916)
+hello, I am parent of 2917 (pid:2916)
+hello world (pid:2916)
+hello, I am child (pid:2917)
+
+Round 64
+hello world (pid:2923)
+hello, I am parent of 2924 (pid:2923)
+hello world (pid:2923)
+hello, I am child (pid:2924)
+
+Round 65
+hello world (pid:2930)
+hello, I am parent of 2931 (pid:2930)
+hello world (pid:2930)
+hello, I am child (pid:2931)
+
+Round 66
+hello world (pid:2937)
+hello, I am parent of 2938 (pid:2937)
+hello world (pid:2937)
+hello, I am child (pid:2938)
+
+Round 67
+hello world (pid:2944)
+hello, I am parent of 2945 (pid:2944)
+hello world (pid:2944)
+hello, I am child (pid:2945)
+
+Round 68
+hello world (pid:2951)
+hello, I am parent of 2952 (pid:2951)
+hello world (pid:2951)
+hello, I am child (pid:2952)
+
+Round 69
+hello world (pid:2958)
+hello, I am parent of 2959 (pid:2958)
+hello world (pid:2958)
+hello, I am child (pid:2959)
+
+Round 70
+hello world (pid:2965)
+hello, I am parent of 2966 (pid:2965)
+hello world (pid:2965)
+hello, I am child (pid:2966)
+
+Round 71
+hello world (pid:2972)
+hello, I am parent of 2973 (pid:2972)
+hello world (pid:2972)
+hello, I am child (pid:2973)
+
+Round 72
+hello world (pid:2979)
+hello, I am parent of 2980 (pid:2979)
+hello world (pid:2979)
+hello, I am child (pid:2980)
+
+Round 73
+hello world (pid:2986)
+hello, I am parent of 2987 (pid:2986)
+hello world (pid:2986)
+hello, I am child (pid:2987)
+
+Round 74
+hello world (pid:2993)
+hello, I am parent of 2994 (pid:2993)
+hello world (pid:2993)
+hello, I am child (pid:2994)
+
+Round 75
+hello world (pid:3000)
+hello, I am parent of 3001 (pid:3000)
+hello world (pid:3000)
+hello, I am child (pid:3001)
+
+Round 76
+hello world (pid:3007)
+hello, I am parent of 3008 (pid:3007)
+hello world (pid:3007)
+hello, I am child (pid:3008)
+
+Round 77
+hello world (pid:3014)
+hello, I am parent of 3015 (pid:3014)
+hello world (pid:3014)
+hello, I am child (pid:3015)
+
+Round 78
+hello world (pid:3021)
+hello, I am parent of 3022 (pid:3021)
+hello world (pid:3021)
+hello, I am child (pid:3022)
+
+Round 79
+hello world (pid:3028)
+hello, I am parent of 3029 (pid:3028)
+hello world (pid:3028)
+hello, I am child (pid:3029)
+
+Round 80
+hello world (pid:3035)
+hello, I am parent of 3036 (pid:3035)
+hello world (pid:3035)
+hello, I am child (pid:3036)
+
+Round 81
+hello world (pid:3042)
+hello, I am parent of 3043 (pid:3042)
+hello world (pid:3042)
+hello, I am child (pid:3043)
+
+Round 82
+hello world (pid:3049)
+hello, I am parent of 3050 (pid:3049)
+hello world (pid:3049)
+hello, I am child (pid:3050)
+
+Round 83
+hello world (pid:3056)
+hello, I am parent of 3057 (pid:3056)
+hello world (pid:3056)
+hello, I am child (pid:3057)
+
+Round 84
+hello world (pid:3063)
+hello, I am parent of 3064 (pid:3063)
+hello world (pid:3063)
+hello, I am child (pid:3064)
+
+Round 85
+hello world (pid:3070)
+hello, I am parent of 3071 (pid:3070)
+hello world (pid:3070)
+hello, I am child (pid:3071)
+
+Round 86
+hello world (pid:3077)
+hello, I am parent of 3078 (pid:3077)
+hello world (pid:3077)
+hello, I am child (pid:3078)
+
+Round 87
+hello world (pid:3084)
+hello, I am parent of 3085 (pid:3084)
+hello world (pid:3084)
+hello, I am child (pid:3085)
+
+Round 88
+hello world (pid:3091)
+hello, I am parent of 3092 (pid:3091)
+hello world (pid:3091)
+hello, I am child (pid:3092)
+
+Round 89
+hello world (pid:3098)
+hello, I am parent of 3099 (pid:3098)
+hello world (pid:3098)
+hello, I am child (pid:3099)
+
+Round 90
+hello world (pid:3105)
+hello, I am parent of 3106 (pid:3105)
+hello world (pid:3105)
+hello, I am child (pid:3106)
+
+Round 91
+hello world (pid:3112)
+hello, I am parent of 3113 (pid:3112)
+hello world (pid:3112)
+hello, I am child (pid:3113)
+
+Round 92
+hello world (pid:3119)
+hello, I am parent of 3120 (pid:3119)
+hello world (pid:3119)
+hello, I am child (pid:3120)
+
+Round 93
+hello world (pid:3126)
+hello, I am parent of 3127 (pid:3126)
+hello world (pid:3126)
+hello, I am child (pid:3127)
+
+Round 94
+hello world (pid:3133)
+hello, I am parent of 3134 (pid:3133)
+hello world (pid:3133)
+hello, I am child (pid:3134)
+
+Round 95
+hello world (pid:3140)
+hello, I am parent of 3141 (pid:3140)
+hello world (pid:3140)
+hello, I am child (pid:3141)
+
+Round 96
+hello world (pid:3147)
+hello, I am parent of 3148 (pid:3147)
+hello world (pid:3147)
+hello, I am child (pid:3148)
+
+Round 97
+hello world (pid:3154)
+hello, I am parent of 3155 (pid:3154)
+hello world (pid:3154)
+hello, I am child (pid:3155)
+
+Round 98
+hello world (pid:3161)
+hello, I am parent of 3162 (pid:3161)
+hello world (pid:3161)
+hello, I am child (pid:3162)
+
+Round 99
+hello world (pid:3168)
+hello, I am parent of 3169 (pid:3168)
+hello world (pid:3168)
+hello, I am child (pid:3169)
+
+Round 100
+hello world (pid:3175)
+hello, I am parent of 3176 (pid:3175)
+hello world (pid:3175)
+hello, I am child (pid:3176)
+
