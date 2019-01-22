@@ -86,19 +86,28 @@ int main(){
      * เนื่องจากใช้ 0xffffffff 0xaaaaaaaa หรือ 0 มาทดสอบจะลำบากเพราะว่า byte มีค่าเหมือนกัน ทำให้ตอบยากว่าถูกหรือไม่
      * ดังนั้นจะใช้เลขสุ่มที่ไม่มีค่าใน byte ไหนเหมือนกันเลย แล้วคำตอบควรจะได้ค่าจาก byte นั้นจริงๆ
      */
-    print(getByte(0x22cfdd5c,0),0x5c); // สี่เคสแรกจะเป็นการนำเลขสุ่ม 1 ตัวมาทดสอบทุก byte ว่าตรงไหม
-    print(getByte(0x22cfdd5c,1),0xdd);
-    print(getByte(0x22cfdd5c,2),0xcf);
-    print(getByte(0x22cfdd5c,3),0x22);
-    print(getByte(0x401c52f4,0),0xf4); // สองเทสเคสท้าย จะเป็นการนำเลขสุ่มมาดู byte ที่ 0 กับ byte ที่ไม่ใช่ 0 อย่างละหนึ่งเคส
-    print(getByte(0x765ce811,3),0x76);
+    printhex(getByte(0x22cfdd5c,0),0x5c); // สี่เคสแรกจะเป็นการนำเลขสุ่ม 1 ตัวมาทดสอบทุก byte ว่าตรงไหม
+    printhex(getByte(0x22cfdd5c,1),0xdd);
+    printhex(getByte(0x22cfdd5c,2),0xcf);
+    printhex(getByte(0x22cfdd5c,3),0x22);
+    printhex(getByte(0x401c52f4,0),0xf4); // สองเทสเคสท้าย จะเป็นการนำเลขสุ่มมาดู byte ที่ 0 กับ byte ที่ไม่ใช่ 0 อย่างละหนึ่งเคส
+    printhex(getByte(0x765ce811,3),0x76);
 
     printf("\n");
     /*
-     *
-     * 
+     * logicalShift
+     * ใช้ค่าบวกเทสในสามเทสเคสแรกเพื่อทดสอบว่า shift ถูก (ค่าไม่ควรจะมี 1 เพื่มจากทางซ้าย)
+     * และใช้ค่าลบเทสในสามเทสเคสท้ายเพื่อทดสอบว่า shift ถูก (เหมือนกับค่าบวก คือ ค่าไม่ควรจะมี 1 เพิ่มจากทางซ้าย)
+     * ทั้งนี้ ผมได้ใช้ตัว python2.7 ช่วยในการสร้างและเช็คเทสเคส ( >> ใน python2.7 เป็น logical shift ซึ่งไม่เหมือนใน c)
      */ 
-    
+    print(logicalShift(0x8765abcd, 4),0x8765abc);
+    print(logicalShift(0x8765abcd, 5),0x43b2d5e);
+    print(logicalShift(0x8765abcd, 6),0x21d96af);
+    print(logicalShift(0xabcd5678, 7),0x1579aac);
+    print(logicalShift(0xabcd5678, 8),0xabcd56);
+    print(logicalShift(0xabcd5678, 9),0x55e6ab);
+
+    printf("\n");
 
 
 
