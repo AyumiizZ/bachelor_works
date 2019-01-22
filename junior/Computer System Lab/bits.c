@@ -67,5 +67,16 @@ void printhex(int predict,int ans){
 }
 
 int main(){
+
+    // bitAnd
+    print(bitAnd(0xffffffff,0),0); // ทดสอบ 1111...111 and 0000...000
+    print(bitAnd(0,0xffffffff),0); // เหมือนเคสแรก แต่ทดสอบสลับ parameter
+    print(bitAnd(0xaaaaaaa,0x11111111),0); // ทดสอบ 1010...010 and 0101...101
+    printhex(bitAnd(0xffffffff,0xaaaaaaaa),0xaaaaaaaa);  // ทดสอบ 1111...111 and 1010...010 
+    printhex(bitAnd(0xaaaaaaaa,0xffffffff),0xaaaaaaaa);  // ทดสอบเหมือนเคสสี่ แต่สลับ parameter
+    print(bitAnd(0,0),0); // ทดสอบ 0 and 0 (basic case)
+
+
+
     return 0;
 }
