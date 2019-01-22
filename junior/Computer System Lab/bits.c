@@ -1,23 +1,38 @@
 #include<stdio.h>
 int bitAnd(int x, int y){
+    /*
+     *
+     */
     return ~(~x|~y);
 }
 
 int getByte(int x,int n){
+    /*
+     *
+     */
     return x >> (n << 3) & 255;
 }
 
 int logicalShift(int x, int n){
+    /*
+     *
+     */
     return (x >> n) & ~((1 << 31) >> (n - 1));
 }
 
 int binCount(int x){
+    /*
+     *
+     */
     int mask = 1 | 1 << 8 | 1 << 16 | 1 << 24;
     int c = (x & mask) + ((x >> 1) & mask) + ((x >> 2) & mask) + ((x >> 3) & mask) + ((x >> 4) & mask) + ((x >> 5) & mask) + ((x >> 6) & mask) + ((x >> 7) & mask);
     return (c + (c >> 8) + (c >> 16) + (c >> 24)) & 0xFF;
 }
 
 int odd_ones(unsigned x){
+    /*
+     *
+     */
     x = x ^ (x >> 16);
     x = x ^ (x >> 8);
     x = x ^ (x >> 4);
@@ -27,28 +42,46 @@ int odd_ones(unsigned x){
 }
 
 int tmin(){
+    /*
+     *
+     */
     return 1 << 31;
 }
 
 int fitBits(int x,int n){
+    /*
+     *
+     */
     int check = 1 & ~((x >> n) ^ (x >> (n-1)));
     x = x >> n;
 	return check & (!x || !(~x)) & ~!n;
 }
 
 int negate(int x){
+    /*
+     *
+     */
     return ~x + 1;
 }
 
 int isPositive(int x){
+    /*
+     *
+     */
     return !(x>>31 & 1) ;
 }
 
 int isLessOrEqual(int x,int y){
+    /*
+     *
+     */
     return !(((y-x) >> 31) & 1);
 }
 
 void print(int predict,int ans){
+    /*
+     *
+     */
     if(predict == ans){
         printf("CORRECT: Ans is %d\n",ans);
     }
@@ -58,6 +91,9 @@ void print(int predict,int ans){
 }
 
 void printhex(int predict,int ans){
+    /*
+     *
+     */
     if(predict == ans){
         printf("CORRECT: Ans is 0x%x\n",ans);
     }
@@ -100,15 +136,17 @@ int main(){
      * และใช้ค่าลบเทสในสามเทสเคสท้ายเพื่อทดสอบว่า shift ถูก (เหมือนกับค่าบวก คือ ค่าไม่ควรจะมี 1 เพิ่มจากทางซ้าย)
      * ทั้งนี้ ผมได้ใช้ตัว python2.7 ช่วยในการสร้างและเช็คเทสเคส ( >> ใน python2.7 เป็น logical shift ซึ่งไม่เหมือนใน c)
      */ 
-    print(logicalShift(0x8765abcd, 4),0x8765abc);
-    print(logicalShift(0x8765abcd, 5),0x43b2d5e);
-    print(logicalShift(0x8765abcd, 6),0x21d96af);
-    print(logicalShift(0xabcd5678, 7),0x1579aac);
-    print(logicalShift(0xabcd5678, 8),0xabcd56);
-    print(logicalShift(0xabcd5678, 9),0x55e6ab);
+    printhex(logicalShift(0x8765abcd, 4),0x8765abc);
+    printhex(logicalShift(0x8765abcd, 5),0x43b2d5e);
+    printhex(logicalShift(0x8765abcd, 6),0x21d96af);
+    printhex(logicalShift(0xabcd5678, 7),0x1579aac);
+    printhex(logicalShift(0xabcd5678, 8),0xabcd56);
+    printhex(logicalShift(0xabcd5678, 9),0x55e6ab);
 
     printf("\n");
-
+    /*
+     * binCount
+     */
 
 
     return 0;
