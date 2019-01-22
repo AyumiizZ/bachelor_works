@@ -68,13 +68,37 @@ void printhex(int predict,int ans){
 
 int main(){
 
-    // bitAnd
-    print(bitAnd(0xffffffff,0),0); // ทดสอบ 1111...111 and 0000...000
+    /*
+     * bitAnd 
+     * ทดสอบโดยเน้นหลัก 0 and อะไรก็ได้ 0 และ 1 and อะไรก็ได้ตัวนั้น
+     */
+
+    print(bitAnd(0xffffffff,0),0); // ทดสอบ 1111...111 and 0000...000 (ทดสอบทุกบิตเป็น 1 แล้ว and 0 ควรได้ 0)
     print(bitAnd(0,0xffffffff),0); // เหมือนเคสแรก แต่ทดสอบสลับ parameter
-    print(bitAnd(0xaaaaaaa,0x11111111),0); // ทดสอบ 1010...010 and 0101...101
-    printhex(bitAnd(0xffffffff,0xaaaaaaaa),0xaaaaaaaa);  // ทดสอบ 1111...111 and 1010...010 
-    printhex(bitAnd(0xaaaaaaaa,0xffffffff),0xaaaaaaaa);  // ทดสอบเหมือนเคสสี่ แต่สลับ parameter
-    print(bitAnd(0,0),0); // ทดสอบ 0 and 0 (basic case)
+    print(bitAnd(0xaaaaaaa,0x11111111),0); // ทดสอบ 1010...010 and 0101...101 (ทดสอบ)
+    printhex(bitAnd(0xffffffff,0x192702db),0x192702db);  // ทดสอบ 1111...111 and 1010...010 (ทดสอบว่า 1 ทุกตัว and อะไรควรได้ตัวนั้น โดยทดสอบด้วยการสุ่มค่ามา)
+    printhex(bitAnd(0x451809c5,0xffffffff),0x451809c5);  // ทดสอบเหมือนเคสสี่ แต่สลับ parameter
+    print(bitAnd(0,0),0); // ทดสอบ 0 and 0 (ทดสอบเคสสามัญที่ควรจะต้องถูก)
+
+    printf("\n");
+    /*
+     * getByte 
+     * เนื่องจากใช้ 0xffffffff 0xaaaaaaaa หรือ 0 มาทดสอบจะลำบากเพราะว่า byte มีค่าเหมือนกัน ทำให้ตอบยากว่าถูกหรือไม่
+     * ดังนั้นจะใช้เลขสุ่มที่ไม่มีค่าใน byte ไหนเหมือนกันเลย แล้วคำตอบควรจะได้ค่าจาก byte นั้นจริงๆ
+     */
+    print(getByte(0x22cfdd5c,0),0x5c); // สี่เคสแรกจะเป็นการนำเลขสุ่ม 1 ตัวมาทดสอบทุก byte ว่าตรงไหม
+    print(getByte(0x22cfdd5c,1),0xdd);
+    print(getByte(0x22cfdd5c,2),0xcf);
+    print(getByte(0x22cfdd5c,3),0x22);
+    print(getByte(0x401c52f4,0),0xf4); // สองเทสเคสท้าย จะเป็นการนำเลขสุ่มมาดู byte ที่ 0 กับ byte ที่ไม่ใช่ 0 อย่างละหนึ่งเคส
+    print(getByte(0x765ce811,3),0x76);
+
+    printf("\n");
+    /*
+     *
+     * 
+     */ 
+    
 
 
 
