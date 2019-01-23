@@ -65,7 +65,7 @@ int tmin(){
 
 int fitBits(int x,int n){
     /*
-     *
+     * 
      */
     int check = 1 & ~((x >> n) ^ (x >> (n-1)));
     x = x >> n;
