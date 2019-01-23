@@ -58,7 +58,7 @@ int odd_ones(unsigned x){
 
 int tmin(){
     /*
-     *
+     * ค่าลบที่น้อยที่สุดเมื่อเขียนแล้วจะเป็น 100...000 ซึ่งก็คือ 1 << 31
      */
     return 1 << 31;
 }
@@ -74,28 +74,41 @@ int fitBits(int x,int n){
 
 int negate(int x){
     /*
-     *
+     * เนื่องจาก c เก็บค่าด้วยระบบ 2' complement ดังนั้นจะส่งค่าตรงข้ามก็แค่ทำ 2' complement
      */
     return ~x + 1;
 }
 
 int isPositive(int x){
     /*
-     *
+     * (x>>31 & 1) ทำเพื่อจะเช็คว่า bit ที่ 31 เป็น 1 หรือ 0
+     * แต่ด้วยความที่ว่าถ้าเป็น positive จะ return 1 แต่ผลลัพธ์จากบรรทัดแรกเป็น 0
+     * และ negative จะ return 0 แต่ผลลัพธ์จากบรรทัดแรกเป็น 1
+     * ซึ่งพบว่าได้ค่าตรงข้ามกับผลลัพธ์ที่ต้องการ
+     * ดังนั้นเราจึงทำการ invert ก่อนที่จะ return
      */
     return !(x>>31 & 1) ;
 }
 
 int isLessOrEqual(int x,int y){
     /*
-     *
+     * อันนี้คล้ายๆ isPositive โดยการเช็คว่า y-x เป็นลบหรือบวก
+     * จาก ((y-x) >> 31) จะได้ว่า
+     * เมื่อ y > x แล้ว bit ขวาสุดจะเป็น 0
+     * เมื่อ y = x แล้ว bit ขวาสุดจะเป็น 0
+     * เมื่อ y < x แล้ว bit ขวาสุดจะเป็น 1 (y-x แล้วติดลบ)
+     * ดังนั้นเมื่อ y น้อยกว่าหรือเท่ากับ x จะได้ผลลัพธ์คือ 0
+     * แล้วเมื่อ y มากกว่า x จะได้ผลลัพธ์คือ 1
+     * ซึ่งพบว่าได้ค่าตรงข้ามกับผลลัพธ์ที่ต้องการ
+     * ดังนั้นเราจึงทำการ invert ก่อนที่จะ return
      */
+    // return ((x-y) >> 31) & 1;
     return !(((y-x) >> 31) & 1);
 }
 
 void print(int predict,int ans){
     /*
-     *
+     * อันนี้เป็นการพิมพ์เพื่อเช็คว่าคำตอบตรงกับ predict ไหม โดยมี format เป็น int
      */
     if(predict == ans){
         printf("CORRECT: Ans is %d\n",ans);
@@ -107,7 +120,7 @@ void print(int predict,int ans){
 
 void printhex(int predict,int ans){
     /*
-     *
+     * อันนี้เป็นการพิมพ์เพื่อเช็คว่าคำตอบตรงกับ predict ไหม โดยมี format เป็น hex
      */
     if(predict == ans){
         printf("CORRECT: Ans is 0x%x\n",ans);
