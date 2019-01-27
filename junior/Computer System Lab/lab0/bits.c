@@ -46,7 +46,7 @@ int binCount(int x){
 
 int odd_ones(unsigned x){
     /*
-     *
+     * 
      */
     x = x ^ (x >> 16);
     x = x ^ (x >> 8);
