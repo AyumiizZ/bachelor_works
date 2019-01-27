@@ -71,11 +71,15 @@ int tmin(){
 
 int fitBits(int x,int n){
     /*
-     * 
+     * shift = 32 - n เพื่อที่จะ shift เลขไปให้สุดขอบของ 32-bit integer
+     * แล้วเมื่อ shift กลับมาแล้วจะต้องไม่มีตัวไหนเปลี่ยนค่า ดังนั้นเราจึงนำมา xor 
+     * และผลลัพธ์ที่หวังไว้ก็ควรจะ xor กันแล้วได้ 0 (x ^ ((x << shift) >> shift))
+     * ซึ่งเราต้องการแสดงออกเป็น 1 ดังนั้นเราจึงทำการ !
+     * แต่การทำเช่นนี้จะมีช่องโหว่คือ 0
+     * ดังนั้นเราจึงทำการ !!n ซึ่งเมื่อไม่เป็น 0 -> !!n = 1 แต่ถ้าเป็น 0 -> !!n = 0
      */
-    int check = 1 & ~((x >> n) ^ (x >> (n-1)));
-    x = x >> n;
-	return check & (!x || !(~x)) & ~!n;
+    int shift = 32 - n;
+    return !(x ^ ((x << shift) >> shift)) & !!n;
 }
 
 int negate(int x){
@@ -111,7 +115,7 @@ int isLessOrEqual(int x,int y){
     return !(((y-x) >> 31) & 1);
 }
 
-void print(int predict,int ans){
+void print(int ans,int predict){
     /*
      * อันนี้เป็นการพิมพ์เพื่อเช็คว่าคำตอบตรงกับ predict ไหม โดยมี format เป็น int
      */
@@ -123,7 +127,7 @@ void print(int predict,int ans){
     }
 }
 
-void printhex(int predict,int ans){
+void printhex(int ans,int predict){
     /*
      * อันนี้เป็นการพิมพ์เพื่อเช็คว่าคำตอบตรงกับ predict ไหม โดยมี format เป็น hex
      */
@@ -224,14 +228,15 @@ int main(){
 
     /*
      * fitBits
-     * ข้อนี้เราจะทดสอบตามขอบๆของจำนวน bits ต่างๆ ซึ่งในที่นี้จะยกเป็น 8 และ 16
+     * ข้อนี้เราจะทดสอบตามขอบๆของจำนวน bits ต่างๆ ซึ่งในที่นี้จะยกเป็น 16
+     * และทดสอบที่ 0 bit จะต้องเก็บอะไรไม่ได้เลยไม่เว้นแต่ 0
      */
     print(fitBits(32767,16),1);
     print(fitBits(32768,16),0);
     print(fitBits(-32768,16),1);
     print(fitBits(-32769,16),0);
-    print(fitBits(127,8),1);
-    print(fitBits(128,8),0);
+    print(fitBits(0,0),0);
+    print(fitBits(-1,0),0);
 
     printf("\n");
 
@@ -276,6 +281,6 @@ int main(){
     print(isLessOrEqual(0x4eb9b28e,0x4eb9b28e),1);
     print(isLessOrEqual(0x44e1397f,0xfc559b96),0);
     print(isLessOrEqual(0x6b653d6a,0xf7f008c),0);
-    
+
     return 0;
 }
