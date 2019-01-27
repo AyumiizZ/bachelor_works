@@ -19,7 +19,7 @@ ConditionLoop1:
     slt $t4, $s0, $t0  # if RANGE < i set $t4 = 1 else $t4 = 0
     bne $t4, $zero, InitLoop2 # if RANGE < i goto InitLoop2
 CodeBlockLoop1:
-    sb	$zero, count($t0)	# store 0 to 
+    sb	$zero, count($t0) # store 0 to count($t0)
 IncrementLoop1:
     addi $t0, $t0, 1 # i = i + 1
     j ConditionLoop1 # jump to ConditionLoop1
