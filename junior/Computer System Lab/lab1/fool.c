@@ -1,6 +1,5 @@
 // C Program for counting sort
 #include <stdio.h>
-#include <string.h>
 #define RANGE 255
 int main()
 {
