@@ -97,7 +97,7 @@ int isPositive(int x){
      * ซึ่งพบว่าได้ค่าตรงข้ามกับผลลัพธ์ที่ต้องการ
      * ดังนั้นเราจึงทำการ invert ก่อนที่จะ return
      */
-    return !(x>>31 & x);
+    return !(x>>31) & x;
 }
 
 int isLessOrEqual(int x,int y){
@@ -259,7 +259,7 @@ int main(){
      * isPositive
      * ทดสอบด้วยค่าบวก 3 ชุด 0 1 ชุด และค่าลบ 2 ชุด 
      */
-    print(isPositive(0),1);
+    print(isPositive(0),0);
     print(isPositive(1),1);
     print(isPositive(0xffffffff),0);
     print(isPositive(0x7fffffff),1);
